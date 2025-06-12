@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#000000">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="BUTTON1"
+        android:textAllCaps="true"
+        android:backgroundTint="@null"
+        android:textColor="#FFFFFF"
+        android:background="#031897" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="BUTTON2"
+        android:textAllCaps="true"
+        android:backgroundTint="@null"
+        android:textColor="#FFFFFF"
+        android:background="#66BB6A" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="BUTTON3"
+        android:textAllCaps="true"
+        android:backgroundTint="@null"
+        android:textColor="#FFFFFF"
+        android:background="#BA55D3" />
+
+</LinearLayout>

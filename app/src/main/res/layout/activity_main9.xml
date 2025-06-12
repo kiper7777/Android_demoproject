@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- Header с фоном волной -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/header_wave" />
+
+        <!-- Вкладки Sign Up / Sign In -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/signUpTab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign up"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#1565C0"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/signInTab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign in"
+                android:textSize="18sp"
+                android:textColor="#90A4AE"
+                android:padding="8dp"
+                android:layout_marginStart="16dp"/>
+        </LinearLayout>
+
+        <!-- Поля -->
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/fullName"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:hint="Full name"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:hint="Password"
+            android:inputType="textPassword"/>
+
+        <!-- Чекбокс -->
+        <CheckBox
+            android:id="@+id/termsCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agree with Terms and Conditions"
+            android:layout_marginTop="8dp" />
+
+        <!-- Кнопка -->
+        <Button
+            android:id="@+id/signUpButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#1565C0"
+            android:textColor="@android:color/white" />
+
+        <!-- Уже участник -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I'm already a member"
+            android:textColor="#78909C"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+</ScrollView>
