@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title=""
+          android:id="@+id/menuDemo"
+          android:icon="@drawable/outline_more_vert_24"
+          app:showAsAction="always">
+
+        <menu>
+              <item android:id="@+id/home"
+                  android:title="Home"
+                  android:icon="@drawable/outline_add_home_24"
+                  app:showAsAction="never">
+              </item>
+
+            <item android:id="@+id/contact"
+                android:title="Contact us"
+                android:icon="@drawable/outline_contact_page_24"
+                app:showAsAction="never">
+            </item>
+
+            <item android:id="@+id/help"
+                android:title="Help"
+                android:icon="@drawable/outline_help_24"
+                app:showAsAction="never">
+            </item>
+
+        </menu>
+    </item>
+
+
+
+
+
+
+</menu>
