@@ -9,4 +9,5 @@
     <color name="backgroundCol">#AAB4EF</color>
     <color name="white">#FFFFFFFF</color>
     <color name="btnColor">#F14C4C</color>
+    <color name="colorPrimary">#832DEA</color>
 </resources>

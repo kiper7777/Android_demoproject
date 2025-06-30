@@ -42,4 +42,19 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <string name="my_image_description">my_image_description</string>
+    <string name="successfully_done">Successfully done</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="activated">ACTIVATED</string>
+    <string name="deactivated">DEACTIVATED</string>
+    <string name="enterYourName">Enter your name</string>
+    <string name="clickMe">CLICK ME</string>
+    <string name="submit">SUBMIT</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="java">Java</string>
+    <string name="php">PHP</string>
+    <string name="wifi">WIFI</string>
+
 </resources>

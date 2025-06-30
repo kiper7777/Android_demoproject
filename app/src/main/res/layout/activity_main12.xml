@@ -23,35 +23,35 @@
         <EditText
             android:id="@+id/fullName"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:hint="Full Name"
             android:inputType="textPersonName"/>
 
         <EditText
             android:id="@+id/mobile"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:hint="Mobile Number"
             android:inputType="phone"/>
 
         <EditText
             android:id="@+id/email"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:hint="Email"
             android:inputType="textEmailAddress"/>
 
         <EditText
             android:id="@+id/password"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:hint="Password"
             android:inputType="textPassword"/>
 
         <EditText
             android:id="@+id/confirmPassword"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:hint="Confirm Password"
             android:inputType="textPassword"/>
 

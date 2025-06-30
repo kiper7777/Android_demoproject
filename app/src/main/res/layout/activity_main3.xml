@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity3">
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/enterYourName"
+        android:autofillHints="name"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="#757575"
+        android:background="@android:drawable/edit_text"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/clickMeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clickMe"
+            android:layout_marginBottom="24dp"/>
+<!--            android:layout_marginRight="12dp"/>-->
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:layout_marginBottom="24dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="#000000"/>
+
+    <RadioGroup
+        android:id="@+id/rg_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <RadioButton
+            android:id="@+id/rb_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:id="@+id/rb_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female"
+            android:textStyle="bold"/>
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/cb_java"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/java"/>
+
+    <CheckBox
+        android:id="@+id/cb_php"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/php"/>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="@string/activated"
+        android:textOff="@string/deactivated"
+        android:checked="true"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/SW"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/wifi"
+        android:layout_margin="10dp"
+        android:onClick="getValSwitch"/>
+</LinearLayout>
